@@ -1,3 +1,18 @@
 ul {
   list-style-type: none;
 }
+
+img {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 12px 12px 12px 24px;
+}
+
+div > a {
+  background-image: url("gvz_link_icon_mini.png");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  padding: 0 0 0 28px;
+  margin: 12px 12px 12px 26px;
+  text-decoration: none;
+}
