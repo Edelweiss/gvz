@@ -1,3 +1,13 @@
+section#main {
+  min-height: 600px;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+section#content {
+}
+
 ul {
   list-style-type: none;
 }
@@ -12,7 +22,17 @@ div > a {
   background-image: url("gvz_link_icon_mini.png");
   background-repeat: no-repeat;
   background-size: 18px;
-  padding: 0 0 0 28px;
+  padding: 1px 0 1px 28px;
   margin: 12px 12px 12px 26px;
   text-decoration: none;
+}
+
+p.editorial {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: grey;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: x-small;
 }
