@@ -16,6 +16,17 @@ td ul {
     margin: 0 0 0 16px;
 }
 
+li.papyriInfo, li.hgv, li.tm {
+    padding: 2px 4px 2px 4px;
+} 
+
+li.papyriInfo a, li.hgv a, li.tm a{
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #085E9B;
+  font-size: 0.8em;
+}
+
 img {
   display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,7 +39,7 @@ img#hgv, img#logo {
   margin: 0;
 }
 
-div > a {
+div > a, p > a {
   background-image: url("gvz_link_icon_mini.png");
   background-repeat: no-repeat;
   background-size: 18px;
