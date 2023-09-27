@@ -48,9 +48,46 @@ div > a, p > a {
   text-decoration: none;
 }
 
+a.button {
+  background-image: url("../img/button1.png");
+  background-position: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 42px;
+  height: 42px;
+  width: 400px;
+  margin: 0 0 0 16px;
+  padding: 12px 0 0 68px;
+  text-decoration: none;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: lightgrey solid 1px;
+    background-color: white;
+}
+
+a.button span{
+    #background-color: lightsteelblue;
+    font-size: 12pt;
+}
+
+a.greek {
+  background-image: url("../img/button1.png");
+}
+
+a.scattered {
+  background-image: url("../img/button5.png");
+}
+
+a.dem {
+  background-image: url("../img/button2.png");
+}
+
+a.copt {
+  background-image: url("../img/button6.png");
+}
+
 p.editorial {
   width: 100%;
-  position: absolute;
   bottom: 0;
   color: grey;
   text-align: center;
