@@ -48,6 +48,16 @@ div > a, p > a {
   text-decoration: none;
 }
 
+div > a[target], p > a[target] {
+  background-image: none;
+  padding: 0;
+  margin: 0;
+}
+
+div > a[not(@target)], p > a[not(@target)] {
+  background-image: none;
+}
+
 a.button {
   background-image: url("../img/button1.png");
   background-position: 10px;
